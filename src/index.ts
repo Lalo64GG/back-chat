@@ -1,6 +1,5 @@
 import dotenv from "dotenv";
 dotenv.config();
-import '../src/config/ConexionDatabase/ConexionDatabase';
 import express from "express";
 import routerMessages from "./routers/messages/routerMessages";
 import routerContacts from './routers/contacts/routerContacts';
